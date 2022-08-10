@@ -9,7 +9,7 @@ export default function Header() {
         animate={{ opacity: 1 }}
 
         src="https://images.pexels.com/photos/507410/pexels-photo-507410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className='image__container h-full w-full bg-red-300'>
-        this is a test again
+        this is a test again status
       </motion.img>
     </div >
   )
