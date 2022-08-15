@@ -5,7 +5,6 @@ import Body from '../components/Body/Body'
 export default function index() {
   return (
     <Layout>
-      <script src="../path/to/flowbite/dist/flowbite.js"></script>
       <Header />
       <div className='app__body h-full w-full bg-gray-700 flex'>
         <LeftSideBar />
