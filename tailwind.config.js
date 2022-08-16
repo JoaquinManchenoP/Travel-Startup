@@ -5,7 +5,29 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        'carouselCover': '900px',
+      },
+      height: {
+        'headerHeight': '440px',
+        'carouselHeight': '420px',
+        'headerBackgroundHeight': '500px'
+      },
+      fontFamily: {
+        'oswald': ['Oswald', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+      },
+
+    },
+    fontSize: {
+      title: ['60px', '60px'],
+      subtitle: ['25px', '35px'],
+      sm: ['14px', '20px'],
+      base: ['16px', '24px'],
+      lg: ['20px', '28px'],
+      xl: ['24px', '32px'],
+    }
   },
   plugins: [],
 }
