@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { carouselImages } from "./carouselImages";
-import EmailInputBox from "../Header Components/EmailInputBox";
-import HeaderText from "../Header Components/HeaderText";
+import EmailInputBox from "../HeaderSubComponents/EmailInputBox";
+import HeaderText from "../HeaderSubComponents/HeaderText";
 
 export default function Carousel({ counter, setCounter, tuple, setTuple }) {
 
@@ -43,10 +43,10 @@ export default function Carousel({ counter, setCounter, tuple, setTuple }) {
                     </AnimatePresence>
                     <div className="button__container flex justify-center z-10 h-4/6  w-carouselCover mt-11  ">
                         <div className="flex items-center justify-between w-full ">
-                            <div className="left__side md:h-80 md:w-2/6 rounded-md  shadow-md">
+                            <div className="left__side md:h-80 md:w-2/6 sm:w-0 xsm:w-0  rounded-md  shadow-md">
                                 <EmailInputBox />
                             </div>
-                            <div className="right__side h-80 md:w-7/12 sm:w-full flex flex-col items-center justify-center text-5xl rounded-md space-y-5 bg-slate-200 bg-opacity-50">
+                            <div className="right__side h-80 md:w-7/12 sm:w-11/12 sm:mr-5 xsm:m-9 xsm:w-full flex flex-col items-center justify-center text-5xl rounded-md space-y-5 bg-slate-300 bg-opacity-50">
                                 <HeaderText />
                             </div>
                         </div>

@@ -1,9 +1,11 @@
 import React from 'react'
+import SideBarCard from './SideBarCard'
 
 export default function LeftSideBar() {
   return (
-    <div className='left__sideBar h-full w-5/12 bg-green-400'>
-      <h1>This is the left side bar</h1>
+    <div className='left__sideBar h-full w-80 flex flex-col items-center space-y-5 bg-green-500'>
+      <SideBarCard />
+      <SideBarCard />
     </div>
   )
 }
