@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function EmailInputBox() {
     return (
-        <div className='md:h-full md:w-full sm:h-0 sm:w-0 rounded-md shadow-2xl overflow-hidden bg-slate-300 bg-opacity-50'>
+        <div className='md:h-full md:w-full sm:h-0 sm:w-0 rounded-sm shadow-2xl overflow-hidden bg-slate-300 bg-opacity-50'>
             <div className='card__header h-1/2 w-full'>
                 <div className="container h-5/6 w-10/23 flex items-center justify-center">
                     <div className="placeholder__image h-full w-10/12 mt-10 bg-gray-700 bg-opacity-100 rounded-md ">placeholder</div>

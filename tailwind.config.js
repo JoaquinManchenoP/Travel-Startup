@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  variants: {
+    scrollbar: ['dark', 'rounded'],
+  },
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -12,19 +15,21 @@ module.exports = {
       width: {
         'carouselCover': '900px',
         'layoutWidth': '98%',
+        'sideBarCardWidth': '200px',
+        'adCardContentWidth': '245px',
       },
       height: {
         'headerHeight': '440px',
         'carouselHeight': '420px',
         'headerBackgroundHeight': '500px',
         'sideBarCardHeight': '300px',
-        'sideBarCardWidth': '200px'
+        'adCardContentHeight': '280px',
+
       },
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],
         'roboto': ['Roboto', 'sans-serif'],
       },
-
     },
     fontSize: {
       title: ['60px', '60px'],
@@ -35,5 +40,7 @@ module.exports = {
       xl: ['24px', '32px'],
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
