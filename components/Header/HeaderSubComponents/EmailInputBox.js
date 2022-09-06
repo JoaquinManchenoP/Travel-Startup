@@ -5,7 +5,7 @@ export default function EmailInputBox() {
         <div className='md:h-full md:w-full sm:h-0 sm:w-0 rounded-sm shadow-2xl overflow-hidden bg-slate-300 bg-opacity-50'>
             <div className='card__header h-1/2 w-full'>
                 <div className="container h-5/6 w-10/23 flex items-center justify-center">
-                    <div className="placeholder__image h-full w-10/12 mt-10 bg-gray-700 bg-opacity-100 rounded-md ">placeholder</div>
+                    <div className="placeholder__image h-full w-10/12 mt-10 bg-gray-200 bg-opacity-100 rounded-md ">placeholder</div>
                 </div>
             </div>
             <div className='login__divider text-sm h-8 w-full flex items-center justify-center font-light pt-8'>

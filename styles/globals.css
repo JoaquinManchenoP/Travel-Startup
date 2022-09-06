@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card__content {
+    overflow: hidden;
+}
+
+.card__content:hover {
+    overflow: auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}

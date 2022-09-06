@@ -1,8 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  variants: {
-    scrollbar: ['dark', 'rounded'],
-  },
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -39,6 +36,10 @@ module.exports = {
       lg: ['20px', '28px'],
       xl: ['24px', '32px'],
     }
+  },
+  variants: {
+    scrollbar: ['dark', 'rounded'],
+    extedn: [],
   },
   plugins: [
     require('tailwind-scrollbar'),
