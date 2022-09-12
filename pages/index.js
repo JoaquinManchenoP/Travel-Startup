@@ -11,7 +11,7 @@ export default function index() {
     <Layout>
       <Header />
       <FilterSection />
-      <div className='app__body h-full w-full flex'>
+      <div className='app__body h-vw w-full flex pb-10'>
         <LeftSideBar />
         <Body />
       </div>
