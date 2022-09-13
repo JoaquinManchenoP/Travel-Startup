@@ -36,12 +36,14 @@ export default function Body() {
 
 
     return (
-        <div className='h-full w-10/12'>
-            {countries.map((country) => (
-                <div key={country.countryId} >
-                    <CountryCard countryName={country.countryName} />
-                </div>
-            ))}
+        <div className='h-full xsm:w-full sm:wfull md:w-10/12 flex flex-col items-center justify-center'>
+            <div className='grid xsm:grid-cols-2 sm:grid-cols-2  md:grid-cols-3 gap-5'>
+                {countries.map((country) => (
+                    <div key={country.countryId} >
+                        <CountryCard countryName={country.countryName} />
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

@@ -79,8 +79,10 @@ export default function JobSideBarCard() {
 
 
     return (
-        <div className='h-sideBarCardHeight w-full bg-slate-100 rounded-sm shadow-md flex flex-col items-center justify-center  '>
-            <div className=' card__titile h-20 w-full flex items-center justify-center bg-purple-300 '>card title</div>
+        <div className='xsm:w-0 xsm:h-0 sm:w-0 sm:h-0 md:h-sideBarCardHeight md:w-full bg-slate-100 rounded-sm shadow-md flex flex-col items-center justify-center overflow-hidden '>
+            <div className=' card__titile h-20 w-full flex items-center justify-center bg-purple-300 '>
+                <span>card title</span>
+            </div>
             <div className="card__content h-adCardContentHeight w-11/12  flex flex-col space-y-2  ">
                 <div className='margin h-20 w-full space-y-3 mt-3  '>
                     {jobCardData.map((job) => (
