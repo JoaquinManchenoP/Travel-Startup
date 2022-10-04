@@ -7,8 +7,10 @@ export default function CountryPageLayout({ children }) {
                 <div className='logo h-16 w-full bg-purple-400'>
                 </div>
                 <div className='country__details__section h-64 w-full bg-green-500 flex'>
-                    <div className='country__flag h-full w-72 bg-orange-500'>
-                        Ecuador
+                    <div className='country__flag h-full w-72 bg-orange-500 flex items-center justify-center'>
+                        <div className='flag h-56 w-56 bg-yellow-500'>
+
+                        </div>
                     </div>
                     <div className='country__details'>
                         <div className='country__name'>
