@@ -5,28 +5,9 @@ export default function CountryPageLayout({ children }) {
         <div className='flex items-center justify-center w-screen h-screen '>
             <div className='h-full main__container w-layoutWidth bg-red-500'>
                 <div className='logo h-16 w-full bg-purple-400'>
+                    {/* the site logo goes here */}
                 </div>
-                <div className='country__details__section h-64 w-full bg-green-500 flex'>
-                    <div className='country__flag h-full w-72 bg-orange-500 flex items-center justify-center'>
-                        <div className='flag h-56 w-56 bg-yellow-500'>
-
-                        </div>
-                    </div>
-                    <div className='country__details'>
-                        <div className='country__name'>
-                            Ecuador
-                        </div>
-                        <div className='country__continent'>
-                            South America
-                        </div>
-                        <div className='country__population'>
-                            16.5M
-                        </div>
-                        <div>
-                            Travel requirement diffculty 2
-                        </div>
-                    </div>
-                </div>
+                {children}
             </div>
         </div>
     )
