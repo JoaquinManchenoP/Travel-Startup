@@ -1,5 +1,7 @@
 import React from 'react'
 import CountryPageLayout from '../../components/Layouts/CountryPageLayout'
+import CountryPageFilters from '../../components/FilterSection/CountryPageFilters'
+
 
 export default function CountryPage() {
     return (
@@ -28,6 +30,9 @@ export default function CountryPage() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='filters'>
+                <CountryPageFilters />
             </div>
         </CountryPageLayout>
     )
