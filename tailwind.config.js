@@ -14,6 +14,8 @@ module.exports = {
         'layoutWidth': '98%',
         'sideBarCardWidth': '200px',
         'adCardContentWidth': '245px',
+        'countryInfoWidth': '1000px',
+
       },
       height: {
         'headerHeight': '440px',
@@ -21,6 +23,7 @@ module.exports = {
         'headerBackgroundHeight': '500px',
         'sideBarCardHeight': '300px',
         'adCardContentHeight': '280px',
+        'countryInfoHeight': '480px',
 
       },
       fontFamily: {

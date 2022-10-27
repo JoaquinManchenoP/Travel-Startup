@@ -1,5 +1,6 @@
 import React from 'react'
 import CountryPageLayout from '../../components/Layouts/CountryPageLayout'
+import CountryInfo from './CountryInfo'
 
 export default function CountryPage() {
     return (
@@ -31,6 +32,9 @@ export default function CountryPage() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='countryInfo h-5/6 w-full bg-green-400 flex items-center justify-center'>
+                <CountryInfo />
             </div>
         </CountryPageLayout>
     )
