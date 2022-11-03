@@ -33,7 +33,7 @@ export default function CountryPage() {
                     </div>
                 </div>
             </div>
-            <div className='countryInfo h-full w-full bg-green-400 flex items-center justify-center'>
+            <div className='countryInfo h-full w-full bg-white flex items-center justify-center'>
                 <CountryInfo />
             </div>
         </CountryPageLayout>

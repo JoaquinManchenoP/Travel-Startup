@@ -8,7 +8,7 @@ export default function CountryCard({ countryName, countryFlag }) {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.99 }}
         >
-            <img className='object-cover w-40 h-40 bg-green-500 rounded-full' src={countryFlag}></img>
+            <img className='object-cover w-40 h-40 bg-slate-500 rounded-full' src={countryFlag}></img>
             <div>
                 <span>{countryName}</span>
             </div>
