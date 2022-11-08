@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 export default function CountryInfoMenuButton({ buttonTitle, buttonSubtitle }) {
+
     return (
         <motion.div className='h-16 w-56 flex flex-col justify-center rounded-sm bg-white'
             whileHover={{ scale: 1.05 }}

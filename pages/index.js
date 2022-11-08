@@ -6,7 +6,6 @@ import FilterSection from '../components/FilterSection/FilterSection';
 
 export default function index() {
 
-
   return (
     <Layout>
       <Header />
