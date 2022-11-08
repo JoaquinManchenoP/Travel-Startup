@@ -23,7 +23,7 @@ module.exports = {
         'headerBackgroundHeight': '500px',
         'sideBarCardHeight': '300px',
         'adCardContentHeight': '280px',
-        'countryInfoHeight': '600px',
+        'countryInfoHeight': '680px',
 
       },
       fontFamily: {
@@ -34,6 +34,7 @@ module.exports = {
     fontSize: {
       title: ['60px', '60px'],
       subtitle: ['23px', '35px'],
+      xsm: ['12px', '18px'],
       sm: ['14px', '20px'],
       base: ['16px', '24px'],
       lg: ['20px', '28px'],
