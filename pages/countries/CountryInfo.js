@@ -3,7 +3,8 @@ import CountryInfoMenu from '../../components/CountryInfo/CountryInfoMenu'
 import { useState } from 'react'
 
 export default function CountryInfo() {
-    const [countryInfoButtonClicked, setCountryInfoButtonClicked] = useState('hello');
+    const [countryInfoButtonClicked, setCountryInfoButtonClicked] = useState(0);
+
     console.log(countryInfoButtonClicked);
 
     return (
