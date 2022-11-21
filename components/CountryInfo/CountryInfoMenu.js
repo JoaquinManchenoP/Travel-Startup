@@ -6,25 +6,25 @@ export default function CountryInfoMenu({ setClickedButton, countryInfoButtonCli
     const optionSelected = (optionNumber) => {
         switch (optionNumber) {
             case 1:
-                setClickedButton('Travel Requirements');
+                setClickedButton(1);
                 break;
             case 2:
-                setClickedButton('General Information');
+                setClickedButton(2);
                 break;
             case 3:
-                setClickedButton('Cost of Travel');
+                setClickedButton(3);
                 break;
             case 4:
-                setClickedButton('Wather and climate patterns');
+                setClickedButton(4);
                 break;
             case 5:
-                setClickedButton('Cost of Living');
+                setClickedButton(5);
                 break;
             case 6:
-                setClickedButton('Places to visit');
+                setClickedButton(6);
                 break;
             case 7:
-                setClickedButton('Remote Work');
+                setClickedButton(7);
                 break;
         }
     }

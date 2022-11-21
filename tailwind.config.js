@@ -24,6 +24,7 @@ module.exports = {
         'sideBarCardHeight': '300px',
         'adCardContentHeight': '280px',
         'countryInfoHeight': '680px',
+        'countryInfoDisplayHeight': '600px',
 
       },
       fontFamily: {
