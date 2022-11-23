@@ -9,7 +9,7 @@ export default function CountryInfo() {
     return (
         <div className='h-countryInfoHeight w-countryInfoWidth bg-white rounded-md shadow-2xl'>
             <CountryInfoMenu setClickedButton={setCountryInfoButtonClicked} countryInfoButtonClicked={countryInfoButtonClicked} />
-            <div className='info h-countryInfoDisplayHeight w-full bg-green-500'>
+            <div className='info h-countryInfoDisplayHeight w-full bg-green-500 flex justify-center items-center'>
                 <CountryInfoDisplay optionSelected={countryInfoButtonClicked} />
             </div>
         </div>

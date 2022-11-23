@@ -15,6 +15,7 @@ module.exports = {
         'sideBarCardWidth': '200px',
         'adCardContentWidth': '245px',
         'countryInfoWidth': '1100px',
+        'countryInfoOptionLayoutHeright': '1050px',
 
       },
       height: {
@@ -25,6 +26,7 @@ module.exports = {
         'adCardContentHeight': '280px',
         'countryInfoHeight': '680px',
         'countryInfoDisplayHeight': '600px',
+        'countryInfoOptionLayoutHeright': '550px',
 
       },
       fontFamily: {

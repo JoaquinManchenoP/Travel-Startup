@@ -13,7 +13,7 @@ export default function CountryPage() {
                 </div>
                 <div className='country__details__section h-full xs:w-full sm:w-4/6 flex items-center justify-center'>
                     <div className='country__details h-5/6 w-5/6 bg-green-300'>
-                        <div className='country__name h-16 6 w-full flex items-cente text-oswald text-title font-bold'>
+                        <div className='country__name h-16 6 w-full flex items-cente text-oswald text-title font-bold font-oswald'>
                             <span>Ecuador</span>
                         </div>
                         <div className='country__details flex flex-col space-y-3 mt-3'>

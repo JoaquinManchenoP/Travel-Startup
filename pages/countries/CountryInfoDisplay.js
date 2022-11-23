@@ -9,7 +9,7 @@ import RemoteWork from './InfoOptions/RemoteWork';
 
 export default function CountryInfoDisplay({ optionSelected }) {
     return (
-        <div className='h-full w-full flex '>
+        <div className='h-countryInfoOptionLayoutHeright w-countryInfoOptionLayoutHeright bg-orange-500'>
             {optionSelected <= 1 && (
                 <TravelRequirements />
             )}
